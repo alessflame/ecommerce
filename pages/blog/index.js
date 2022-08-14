@@ -23,7 +23,7 @@ function index({articles}) {
 }
 
 
-export const getStaticProps=async()=>{
+export const getServerSideProps=async()=>{
    const res= await fetch(`${process.env.NEXT_PUBLIC_URL_DEPLOY}/api/articles`);
    const articles= await res.json()
    

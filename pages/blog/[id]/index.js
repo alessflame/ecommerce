@@ -1,7 +1,6 @@
 import React from "react";
 import BlogArticle from "../../../components/BlogArticle/BlogArticle";
-import { useRouter } from "next/router";
-import CommentsList from "../../../components/CommentsList/CommentsList";
+
 
 function singleArticle({ article, comments }) {
   return (
@@ -11,7 +10,7 @@ function singleArticle({ article, comments }) {
   );
 }
 
-export const getStaticProps = async (context) => {
+export const getServerSideProps = async (context) => {
   const res = await fetch(
     `${process.env.NEXT_PUBLIC_URL_DEPLOY}/api/articles/${context.params.id}`
   );
@@ -26,20 +25,20 @@ export const getStaticProps = async (context) => {
   };
 };
 
-export const getStaticPaths = async () => {
-  const res = await fetch(`${process.env.NEXT_PUBLIC_URL_DEPLOY}/api/articles`);
-  const articles = await res.json();
+// export const getStaticPaths = async () => {
+//   const res = await fetch(`${process.env.NEXT_PUBLIC_URL_DEPLOY}/api/articles`);
+//   const articles = await res.json();
 
-  const idList = articles.map((article) => article._id);
+//   const idList = articles.map((article) => article._id);
 
-  const paths = idList.map((id) => {
-    return { params: { id: id } };
-  });
+//   const paths = idList.map((id) => {
+//     return { params: { id: id } };
+//   });
 
-  return {
-    paths,
-    fallback: false,
-  };
-};
+//   return {
+//     paths,
+//     fallback: false,
+//   };
+// };
 
 export default singleArticle;
