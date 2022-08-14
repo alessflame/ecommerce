@@ -1,0 +1,65 @@
+.layout{
+     margin:0 25px;
+     overflow-x: hidden;
+}
+
+
+
+.containerCart{
+     display: flex;
+     align-items: center;
+     position: relative;
+     min-width: 100%;
+     height: 100px;
+}
+
+.hamburger{
+     display:none;
+     font-size: 0;
+}
+
+
+
+.section{
+     
+     display: flex;
+     justify-content: center;
+     position: absolute;
+      width: auto;
+      margin-right: 100%;
+     left: 1px;
+     
+     
+}
+
+.cart{
+    
+    padding: 8px 
+    
+}
+
+.cart .cartIcon{
+     font-size:35px;
+}
+
+@media only screen and (max-width:650px){
+
+     .hamburger{
+     display: flex;
+     font-size: 30px;
+     transition: all 1s ease-in-out;
+     position: static;
+     margin-left: 90%;
+     right: 50px;
+}
+
+
+/* .section{
+     width: auto;
+     position: absolute;
+      margin-right: 100%;
+     left: 5px;
+     
+} */
+}
+

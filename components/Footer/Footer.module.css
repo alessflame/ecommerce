@@ -1,0 +1,15 @@
+.footer{
+     display: flex;
+     justify-content: center;
+     color: white;
+     background-color: black;
+     align-items: center;
+     position: static;
+     width: 100%;
+     margin-top: 120px;
+     bottom: 0;
+}
+
+.footer .list{
+     padding: 10px 40px;
+}
