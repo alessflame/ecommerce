@@ -2,7 +2,6 @@ import React from "react";
 import styles from "./Navbar.module.css";
 import Link from "next/link";
 import Image from "next/image";
-import attitude from "../../public/attitude.png";
 
 function Navbar({ visible }) {
   return (
