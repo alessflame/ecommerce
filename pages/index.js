@@ -2,10 +2,15 @@ import Head from "next/head";
 import Image from "next/image";
 import Header from "../components/Header/Header";
 import ProductsList from "../components/ProductsList/ProductsList";
+import {database} from "../utils/database"
+import {productModel} from "../models/productModel"
 
 export const getServerSideProps = async () => {
-  const res = await fetch(`${process.env.NEXT_PUBLIC_URL_DEPLOY}/api/products`);
-  const products = await res.json();
+  database();
+
+  let products = await productModel.find();
+  products= JSON.parse(JSON.stringify(products));
+
 
   return {
     props: { products },
