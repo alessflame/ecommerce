@@ -3,6 +3,8 @@ import React from 'react'
 import { useSelector } from 'react-redux';
 import ProductsList from '../../components/ProductsList/ProductsList'
 import SearchBar from '../../components/SearchBar/SearchBar';
+import {productModel} from "../../models/productModel"
+import {database} from "../../utils/database"
 
 
 function index({products}) {
@@ -34,9 +36,13 @@ function index({products}) {
 
 export const getServerSideProps = async()=>{
 
-   const res= await fetch(`${process.env.NEXT_PUBLIC_URL_DEPLOY}/api/products`);
-   const products=await res.json();
+  //  const res= await fetch(`${process.env.NEXT_PUBLIC_URL_DEPLOY}/api/products`);
+  //  const products=await res.json();
 
+  database();
+
+  let products = await productModel.find();
+  products= JSON.parse(JSON.stringify(products));
 
 
   return{

@@ -9,7 +9,7 @@ function Navbar({ visible }) {
       className={styles.nav}
       style={visible === true ? { transform: "translateX(0vw)" } : {}}
     >
-      <Image src="/Attitude.png" alt="vercel" />
+      <Image src="/Attitude.png" width="220px" height="55px" alt="vercel" />
       <Link href="/">
         <a>Home</a>
       </Link>
