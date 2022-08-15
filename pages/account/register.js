@@ -12,7 +12,7 @@ function register() {
   const dispatch = useDispatch();
 
   const postRegister = async (data) => {
-    const res = await fetch(`${process.env.NEXT_PUBLIC_URL_DEPLOY}/api/users`, {
+    const res = await fetch(`/api/users`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

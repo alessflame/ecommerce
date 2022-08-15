@@ -25,7 +25,7 @@ function Comment({ title, item }) {
 
     data = JSON.stringify(data);
 
-    const res = await fetch(`${process.env.NEXT_PUBLIC_URL_DEPLOY}/api/comments/${item._id}`, {
+    const res = await fetch(`/api/comments/${item._id}`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

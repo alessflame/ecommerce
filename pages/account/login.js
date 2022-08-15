@@ -26,7 +26,7 @@ function pageLogin() {
 
   const postLogin = async (data, username) => {
     console.log(process.env.NEXT_PUBLIC_URL_DEPLOY, "ok");
-    const res = await fetch(`${process.env.NEXT_PUBLIC_URL_DEPLOY}/api/users/${username}`, {
+    const res = await fetch(`/api/users/${username}`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
