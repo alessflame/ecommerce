@@ -5,12 +5,12 @@ and **MongoDB** for the database
 [Demo](https://ecommerce-alessflame.vercel.app/)
 
 ## Tools
--ChakraUI
--@reduxjs/toolkit
--jsonwebtoken
--jw-decode
--formik
--yup
+- ChakraUI
+- @reduxjs/toolkit
+- jsonwebtoken
+- jw-decode
+- formik
+- yup
 
 ## Contact
 [Linkedin](https://www.linkedin.com/in/francesco-aless)
