@@ -1,0 +1,60 @@
+[{
+  "_id": {
+    "$oid": "62e026ed8e6d3e84cfa17069"
+  },
+  "name": "t-shirt attitude",
+  "price": 35,
+  "category": "t-shirt",
+  "image": "/products/image1.png",
+  "features": [
+    "Antimagnetico",
+    "Materiale di qualità",
+    "Sostenibilità"
+  ],
+  "firstDescription": "la prima maglietta Attitude per rappresentare la sostenibilità della nostra collezione",
+  "secondDescription": "Questa maglia di colore rosso rappresenta un'edizione limitata. "
+},{
+  "_id": {
+    "$oid": "62e174e59c025636aa4b9163"
+  },
+  "name": "Felpa attitude",
+  "price": 40.99,
+  "category": "felpe",
+  "image": "/products/image2.png",
+  "firstDescription": "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua"
+},{
+  "_id": {
+    "$oid": "62e524dbd5161dc2c5d05d2b"
+  },
+  "name": "Felpa attitude",
+  "price": 40.99,
+  "category": "felpe",
+  "image": "/products/image3.png ",
+  "firstDescription": "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua",
+  "features\"": [
+    "Sostenibile",
+    "Anti-Magnetico"
+  ]
+},{
+  "_id": {
+    "$oid": "62e524e2d5161dc2c5d05d2c"
+  },
+  "name": "Felpa attitude",
+  "price": 40.99,
+  "category": "felpe",
+  "image": "/products/image4.jpg ",
+  "firstDescription": "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua"
+},{
+  "_id": {
+    "$oid": "62e524ebd5161dc2c5d05d2d"
+  },
+  "name": "Felpa attitude",
+  "price": 40.99,
+  "category": "felpe",
+  "image": "/products/image5.jpg",
+  "secondDescription": "Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua",
+  "features": [
+    "qualità certificata",
+    "Sostenibile"
+  ]
+}]

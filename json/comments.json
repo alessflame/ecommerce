@@ -1,0 +1,110 @@
+[{
+  "_id": {
+    "$oid": "62ed2914911cff5a202b7da4"
+  },
+  "id_user": "62f00ef98d7663b1d9076ef6",
+  "content": "davvero un bel prodotto, l'ho acquistato l'anno scorso ed è perfetto!",
+  "id_item": "62e174e59c025636aa4b9163"
+},{
+  "_id": {
+    "$oid": "62efa1b7fc64429465c80ad7"
+  },
+  "id_user": "62f00ef98d7663b1d9076ef6",
+  "content": "molto belloooooo, mi piace!",
+  "id_item": "62e174e59c025636aa4b9163"
+},{
+  "_id": {
+    "$oid": "62efbefafe60facc5fb95a3e"
+  },
+  "id_user": "62f00ef98d7663b1d9076ef6",
+  "content": "molto belloooooo, mi piace!",
+  "id_item": "62e13c7a8e08066f116be941"
+},{
+  "_id": {
+    "$oid": "62f3d03db6f80979773b5ef7"
+  },
+  "id_user": "62f0b875fa67df23dcf7a7fe",
+  "id_item": "62e026ed8e6d3e84cfa17069",
+  "content": "ottimo prodotto!",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f3d0b7b6f80979773b5f02"
+  },
+  "id_user": "62f0b875fa67df23dcf7a7fe",
+  "id_item": "62e026ed8e6d3e84cfa17069",
+  "content": "bella maglia!",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f3d0dfb6f80979773b5f10"
+  },
+  "id_user": "62f0b875fa67df23dcf7a7fe",
+  "id_item": "62e026ed8e6d3e84cfa17069",
+  "content": "appena acquistato!",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f3d1dcb6f80979773b5f33"
+  },
+  "id_user": "62f0b875fa67df23dcf7a7fe",
+  "id_item": "62e026ed8e6d3e84cfa17069",
+  "content": "grandeee",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f3d992b6f80979773b5f50"
+  },
+  "id_user": "62f0b875fa67df23dcf7a7fe",
+  "id_item": "62e524dbd5161dc2c5d05d2b",
+  "content": "bel prodotto!",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f3ee42b6f80979773b5f8a"
+  },
+  "id_user": "62f0b875fa67df23dcf7a7fe",
+  "id_item": "62e13c7a8e08066f116be941",
+  "content": "grandee!",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f3eee4b6f80979773b5fa3"
+  },
+  "id_user": "62f0b875fa67df23dcf7a7fe",
+  "id_item": "62f3ebcc382f7eaa2ea44ef1",
+  "content": "Interessante",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f80064d998fcc26e9f24f1"
+  },
+  "id_user": "62f0b875fa67df23dcf7a7fe",
+  "id_item": "62e174e59c025636aa4b9163",
+  "content": "ottimo",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f8019bd998fcc26e9f24fd"
+  },
+  "id_user": "62f0b875fa67df23dcf7a7fe",
+  "id_item": "62e174e59c025636aa4b9163",
+  "content": "Buon prodotto!",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f801b9d998fcc26e9f2508"
+  },
+  "id_user": "62f0b875fa67df23dcf7a7fe",
+  "id_item": "62e524e2d5161dc2c5d05d2c",
+  "content": "Ottimo",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f90417a4f489e4f04ef4bd"
+  },
+  "id_user": "62f0b875fa67df23dcf7a7fe",
+  "id_item": "62e524e2d5161dc2c5d05d2c",
+  "content": "bella felpa",
+  "__v": 0
+}]

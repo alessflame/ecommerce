@@ -1,0 +1,21 @@
+[{
+  "_id": {
+    "$oid": "62f00ef98d7663b1d9076ef6"
+  },
+  "name": "lorenzo",
+  "surname": "cavoli",
+  "username": "cavolore",
+  "email": "france@france.fram",
+  "password": "$2b$10$lVc6JCWZhkvNbl4Gk3PjButlPfrqUtMCLAChTuyVyqW9WDxo9fIAS",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "62f0b875fa67df23dcf7a7fe"
+  },
+  "name": "Francesco",
+  "surname": "Alessi",
+  "username": "alessflame",
+  "email": "france@france.fra",
+  "password": "$2b$10$THu2/a4eXXQUUfnQt.8Jken7vcEmYc2Ak18Jc/89Z97h4E4tHK/5K",
+  "__v": 0
+}]
