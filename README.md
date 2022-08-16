@@ -12,5 +12,5 @@ and **MongoDB** for the database
 -formik
 -yup
 
-##Contact
+## Contact
 [Linkedin](https://www.linkedin.com/in/francesco-aless)
